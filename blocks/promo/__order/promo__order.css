@@ -1,6 +1,8 @@
 .promo__order {
     position: absolute;
-    right: 600px;
+    /* right: 600px; */
     bottom: 80px;
+    left: 48.5%;
+    transform: translateX(-50%);
     z-index: 2;
 }

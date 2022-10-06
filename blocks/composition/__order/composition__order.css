@@ -1,5 +1,7 @@
 .composition__order {
     position: absolute;
     bottom: 50px;
-    right: 350px;
+    /* right: 350px; */
+    left: 48.5%;
+    transform: translateX(-50%);
 }
