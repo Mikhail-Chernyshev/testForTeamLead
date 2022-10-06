@@ -1,0 +1,9 @@
+.feedback__response {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    border: 1px solid yellow;
+}

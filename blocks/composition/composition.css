@@ -1,0 +1,7 @@
+.composition {
+    position: relative;
+    padding: 40px;
+    display: flex;
+    background: linear-gradient(45deg, #595959, #919ba0);
+    /* z-index: 2; */
+}

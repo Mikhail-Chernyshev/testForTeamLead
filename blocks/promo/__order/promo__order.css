@@ -1,0 +1,6 @@
+.promo__order {
+    position: absolute;
+    right: 600px;
+    bottom: 80px;
+    z-index: 2;
+}

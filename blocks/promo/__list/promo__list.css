@@ -1,0 +1,11 @@
+.promo__list {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: 350px;
+    width: 350px;
+    font-size: 2em;
+    list-style-type: none;
+    background-color: rgba(66, 64, 66, 0.6);
+}

@@ -1,0 +1,7 @@
+.photo{
+    position: relative;
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8, #a54505);
+}

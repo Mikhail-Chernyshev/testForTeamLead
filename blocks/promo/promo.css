@@ -1,0 +1,9 @@
+.promo {
+    display: flex;
+    flex-direction: column;
+    /* border: 5px solid green; */
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+}
