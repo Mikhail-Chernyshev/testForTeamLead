@@ -1,6 +1,5 @@
 .photo__characteristics {
-    margin: 0 auto;
-    padding: 25px 0 0 0;
+    margin: 25px auto 0px;
+    padding: 0;
     display: flex;
-    
 }

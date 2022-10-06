@@ -1,12 +1,7 @@
 .feedback__wrapper {
-  /* position: absolute; */
-  /* top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0; */
-  display: flex;
-  /* overflow-x: scroll;
-  counter-reset: item;
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory; */
+  background: linear-gradient(45deg, #595959, #919ba0);
+  max-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+
 }

@@ -1,0 +1,9 @@
+.feedback__all-response {
+margin: 0;
+padding: 0;
+width: 300%;
+/* width: 4320px; */
+height: 100%;
+display: flex;
+/* flex-direction: row; */
+}

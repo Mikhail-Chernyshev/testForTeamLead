@@ -30,8 +30,6 @@
 @import url(../blocks/feedback/__name/feedback__name.css);
 @import url(../blocks/feedback/__text/feedback__text.css);
 @import url(../blocks/feedback/__navigation/feedback__navigation.css);
-@import url(../blocks/feedback/__navigation-list/feedback__navigation-list.css);
-@import url(../blocks/feedback/__navigation-item/feedback__navigation-item.css);
 @import url(../blocks/feedback/__navigation-button/feedback__navigation-button.css);
 @import url(../blocks/feedback/__wrapper/feedback__wrapper.css);
 @import url(../blocks/order/order.css);
@@ -44,3 +42,5 @@
 @import url(../blocks/order/__form/order__form.css);
 @import url(../blocks/order/__input/order__input.css);
 @import url(../blocks/order/__submit/order__submit.css);
+@import url(../blocks/feedback/__all-response/feedback__all-response.css);
+@import url(../blocks/feedback/__radio/feedback__radio.css);

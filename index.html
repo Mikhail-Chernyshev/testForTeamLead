@@ -18,6 +18,7 @@
             width="auto"
             height="auto"
             autoplay
+            loop
             muted
             playsinline
           >
@@ -109,98 +110,82 @@
 
         <section class="feedback">
           <div class="feedback__wrapper">
-            <div
-              id="feedback__response1"
-              tabindex="0"
-              class="feedback__response"
-            >
-              <img
-                src="./images/photo_2022-10-01 11.43.13.jpeg"
-                alt=""
-                class="feedback__image"
-              />
-              <h3 class="feedback__name">!!!!!!FirstName SecondName</h3>
-              <p class="feedback__text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus.
-              </p>
+            <div class="feedback__all-response">
+              <input type="radio" name="r" id="r1" class="feedback__radio" checked>
+              <input type="radio" name="r" id="r2" class="feedback__radio" >
+              <input type="radio" name="r" id="r3" class="feedback__radio" >
+              <div
+                id="feedback__response1"
+                tabindex="0"
+                class="feedback__response"
+              >
+                <img
+                  src="./images/photo_2022-10-01 11.43.13.jpeg"
+                  alt=""
+                  class="feedback__image"
+                />
+                <h3 class="feedback__name">!!!!!!FirstName SecondName</h3>
+                <p class="feedback__text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                  natoque penatibus et magnis dis parturient montes, nascetur
+                  ridiculus mus.
+                </p>
+              </div>
+              <div
+                id="feedback__response2"
+                tabindex="0"
+                class="feedback__response"
+              >
+                <img
+                  src="./images/photo_2022-10-01 11.43.13.jpeg"
+                  alt=""
+                  class="feedback__image"
+                />
+                <h3 class="feedback__name">dsfsfFirstName SecondName111</h3>
+                <p class="feedback__text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                  natoque penatibus et magnis dis parturient montes, nascetur
+                  ridiculus mus.
+                </p>
+              </div>
+              <div
+                id="feedback__response3"
+                tabindex="0"
+                class="feedback__response"
+              >
+                <img
+                  src="./images/photo_2022-10-01 11.43.13.jpeg"
+                  alt=""
+                  class="feedback__image"
+                />
+                <h3 class="feedback__name">FirstNamfdsgsdge SecondName</h3>
+                <p class="feedback__text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                  natoque penatibus et magnis dis parturient montes, nascetur
+                  ridiculus mus.
+                </p>
+              </div>
             </div>
-            <div
-              id="feedback__response2"
-              tabindex="0"
-              class="feedback__response"
-            >
-              <img
-                src="./images/photo_2022-10-01 11.43.13.jpeg"
-                alt=""
-                class="feedback__image"
-              />
-              <h3 class="feedback__name">FirstName SecondName</h3>
-              <p class="feedback__text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus.
-              </p>
-            </div>
-            <div
-              id="feedback__response3"
-              tabindex="0"
-              class="feedback__response"
-            >
-              <img
-                src="./images/photo_2022-10-01 11.43.13.jpeg"
-                alt=""
-                class="feedback__image"
-              />
-              <h3 class="feedback__name">FirstNamfdsgsdge SecondName</h3>
-              <p class="feedback__text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus.
-              </p>
+            <div class="feedback__navigation">
+              <label for="r1" class="feedback__navigation-button"></label>
+              <label for="r2" class="feedback__navigation-button"></label>
+              <label for="r3" class="feedback__navigation-button"></label>
             </div>
           </div>
-          <aside class="feedback__navigation">
-            <ol class="feedback__navigation-list">
-              <li class="feedback__navigation-item">
-                <a
-                  href="#feedback__response1"
-                  class="feedback__navigation-button"
-                  >Go to slide 1</a
-                >
-              </li>
-              <li class="feedback__navigation-item">
-                <a
-                  href="#feedback__response2"
-                  class="feedback__navigation-button"
-                  >Go to slide 2</a
-                >
-              </li>
-              <li class="feedback__navigation-item">
-                <a
-                  href="#feedback__response3"
-                  class="feedback__navigation-button"
-                  >Go to slide 3</a
-                >
-              </li>
-            </ol>
-          </aside>
         </section>
-
         <section class="photo">
           <div class="photo__wrapper">
             <img src="./images/doctor.png" alt="buyer" class="photo__image" />
-            <h4 class="photo__description">
+            <p class="photo__description">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
               commodo ligula eget dolor. Aenean massa. Cum sociis natoque
               penatibus et magnis dis parturient montes, nascetur ridiculus mus.
               Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
               sem. Nulla consequat massa quis enim
-            </h4>
+            </p>
           </div>
           <ul class="photo__characteristics">
             <li class="photo__property">Lorem ipsum</li>
@@ -244,5 +229,6 @@
       </main>
       <footer class="footer"></footer>
     </div>
+    <!-- <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script> -->
   </body>
 </html>
