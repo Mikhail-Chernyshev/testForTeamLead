@@ -1,0 +1,19 @@
+.composition__link {
+}
+@media screen and (max-width: 1279px) {
+  .composition__link {
+  }
+}
+@media screen and (max-width: 1023px) {
+  .composition__link {
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .composition__link {
+    width: 140px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 1.5em;
+  }
+}

@@ -1,7 +1,27 @@
 .composition__order {
     position: absolute;
     bottom: 50px;
-    /* right: 350px; */
     left: 48.5%;
     transform: translateX(-50%);
 }
+@media screen and (max-width: 1279px) {
+    .composition__order {
+
+    }
+  }
+  @media screen and (max-width: 1023px) {
+    .composition__order {
+        left: 47.5%;
+        bottom: 80px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .composition__order {
+      width: 140px;
+      height: 60px;
+      bottom: 30px;
+      left: 44.5%;
+    }
+  }
+  

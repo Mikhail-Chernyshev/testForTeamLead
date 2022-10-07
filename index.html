@@ -44,7 +44,7 @@
               </li>
             </ul>
           </div>
-          <button class="button__order promo__order">ORDER!</button>
+          <button class="button__order promo__order"><a href="#order" class="button__link" >ORDER!</a></button>
         </section>
 
         <section class="composition">
@@ -105,7 +105,7 @@
               <h3 class="composition__title">Lorem ipsum dolor sit amet</h3>
             </div>
           </div>
-          <button class="button__order composition__order">ORDER!</button>
+          <button class="button__order composition__order"><a href="#order" class="button__link composition__link" >ORDER!</a></button>
         </section>
 
         <section class="feedback">
@@ -176,6 +176,7 @@
             </div>
           </div>
         </section>
+
         <section class="photo">
           <div class="photo__wrapper">
             <img src="./images/doctor.png" alt="buyer" class="photo__image" />
@@ -192,43 +193,44 @@
             <li class="photo__property">Lorem ipsum</li>
             <li class="photo__property">Lorem ipsum</li>
           </ul>
-          <button class="button__order photo__order">ORDER!</button>
+          <button class="button__order photo__order"><a href="#order" class="button__link photo__link" >ORDER!</a></button>
         </section>
 
         <section class="order">
           <h3 class="promo__title order__title">&ensp;LevelUp&ensp;</h3>
+          <!-- <script src="//megatimer.ru/get/ba495803229cdb2b312bb88ad57a2d89.js"></script> -->
           <div class="order__timer">timer</div>
           <div class="order__wrapper">
             <img src="./images/prod.png" alt="" class="order__image" />
-            <p class="order__old-price">1000000$</p>
-            <p class="order__new-price">9.99%</p>
-            <form action="#" name="orderform" class="order__form">
+            <p class="order__new-price">&emsp;NEW:&emsp; 9.99$</p>
+            <p class="order__old-price">OLD: 1000000$</p>
+            <form id="order" action="#" name="orderform" class="order__form">
+              <h4 class="order__subtitle">MAKE ORDER!</h4>
               <input
                 name="name"
                 required="required"
-                placeholder="имя"
+                placeholder="FullName"
                 type="text"
                 class="order__input"
               />
-              <!-- <span class="order__input-error name-input-error"></span> -->
               <input
                 name="telephon"
                 required="required"
-                placeholder="телефон"
-                type="tel"
+                placeholder="79633008408"
+                type="number"
+                onkeydown="return event.keyCode !== 69"
                 class="order__input"
               />
-              <!-- <span class="order__input-error telephon-input-error"></span> -->
               <button
                 type="submit"
                 class="button__order order__submit"
-              ></button>
+              ><p class="button__link order__link">ORDER!</p></button>
             </form>
           </div>
         </section>
       </main>
       <footer class="footer"></footer>
     </div>
-    <!-- <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script> -->
+    <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
   </body>
 </html>

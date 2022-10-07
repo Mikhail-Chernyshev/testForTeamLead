@@ -7,7 +7,7 @@
   background-color: rgb(174, 167, 167);
   background: linear-gradient(45deg, #f0ecec, #919ba0);
   border-radius: 5px; /* скругление углов блока */
-  padding: 16px; /* внутренние поля */
-  width: 33%;
+  /* padding: 16px; внутренние поля */
+  width: 33.3%;
   transition: all .6s ease;
 }

@@ -1,3 +1,19 @@
 .order__title {
-    
+ 
 }
+@media screen and (max-width: 1279px) {
+    .order__title {
+      margin: 30px auto;
+    }
+  }
+  @media screen and (max-width: 1023px) {
+    .order__title {
+      margin: 25px auto;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .order__title {
+        
+    }
+  }

@@ -1,21 +1,22 @@
-.order__submit {
-    margin: 35px auto;
-    display: flex;
+.order__link {
+
 }
 @media screen and (max-width: 1279px) {
-    .order__submit {
+    .order__link {
         
     }
 }
 @media screen and (max-width: 1023px) {
-    .order__submit {
+    .order__link {
         width: 160px;
         height: 80px;
+        font-size: 1.5em;
+        line-height: 80px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .order__submit {
+    .order__link {
         
     }
 }

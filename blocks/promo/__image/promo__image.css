@@ -1,8 +1,25 @@
 .promo__image {
-    margin: 0;
-    padding: 0;
-    min-height: 350px;
-    width: 350px;
-    position: relative;
-    z-index: 2;
+  margin: 0;
+  padding: 0;
+  height: 350px;
+  width: 350px;
+  position: relative;
+  z-index: 2;
+}
+@media screen and (max-width: 1279px) {
+  .promo__image {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .promo__image {
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .promo__image {
+    width: 150px;
+    height: 200px;
+  }
 }

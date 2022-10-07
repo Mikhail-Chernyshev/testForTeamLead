@@ -1,0 +1,24 @@
+.order__subtitle {
+    margin: 40px auto 20px;
+    padding: 0;
+    text-align: center;
+    font-size: 2em;
+    max-width: 230px;
+    color: rgb(12, 161, 109);
+
+}
+@media screen and (max-width: 1279px) {
+    .order__subtitle {
+    }
+  }
+  @media screen and (max-width: 1023px) {
+    .order__subtitle {
+    font-size: 1.5em;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .order__subtitle {
+        
+    }
+  }

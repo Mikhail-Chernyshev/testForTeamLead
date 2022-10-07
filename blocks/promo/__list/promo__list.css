@@ -1,11 +1,33 @@
 .promo__list {
-    position: relative;
-    margin: 0;
+  position: relative;
+  margin: 0 0 20px 0;
+  padding: 10px;
+  display: block;
+  height: 350px;
+  width: 350px;
+  font-size: 2em;
+  list-style-type: none;
+  background-color: rgba(247, 244, 247, 0.8);
+}
+
+@media screen and (max-width: 1279px) {
+  .promo__list {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .promo__list {
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .promo__list {
+    margin: 10px auto;
     padding: 0;
-    display: block;
-    height: 350px;
-    width: 350px;
-    font-size: 2em;
-    list-style-type: none;
-    background-color: rgba(66, 64, 66, 0.6);
+    font-size: 1.1em;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+  }
 }

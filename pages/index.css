@@ -44,3 +44,8 @@
 @import url(../blocks/order/__submit/order__submit.css);
 @import url(../blocks/feedback/__all-response/feedback__all-response.css);
 @import url(../blocks/feedback/__radio/feedback__radio.css);
+@import url(../blocks/button/__link/button__link.css);
+@import url(../blocks/order/__subtitle/order__subtitle.css);
+@import url(../blocks/order/__link/order__link.css);
+@import url(../blocks/composition/__link/composition__link.css);
+@import url(../blocks/photo/__link/photo__link.css);

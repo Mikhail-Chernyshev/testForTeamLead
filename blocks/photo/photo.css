@@ -1,8 +1,20 @@
-.photo{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    /* background: linear-gradient(45deg, #595959, #919ba0); */
-    margin: 0;
-    padding: 30px;
+.photo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 1279px) {
+  .photo {
+  }
+}
+@media screen and (max-width: 1023px) {
+  .photo {
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo {
+  }
 }

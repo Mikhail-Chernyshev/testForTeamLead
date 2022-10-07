@@ -1,9 +1,26 @@
 .feedback__image {
-    margin: 10px auto;
-    padding: 0;
-    max-width: 300px;
-    min-height: 300px;
-    background-size: contain;
-    border-radius: 10px;
-    box-shadow: inset 5px 5px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+  margin: 10px auto;
+  padding: 0;
+  max-width: 300px;
+  min-height: 300px;
+  background-size: contain;
+  border-radius: 10px;
+  box-shadow: inset 5px 5px 5px rgba(154, 147, 140, 0.5),
+    1px 1px 5px rgba(255, 255, 255, 1);
+}
+@media screen and (max-width: 1279px) {
+  .feedback__image {
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .feedback__image {
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .feedback__image {
+    max-width: 200px;
+    min-height: 200px;
+  }
 }

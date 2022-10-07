@@ -1,4 +1,24 @@
 .order__wrapper {
-    display: flex;
-    flex-direction: row;
+  position: relative;
+  padding: 0;
+  margin: 10px 0 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1279px) {
+  .order__wrapper {
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .order__wrapper {
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .order__wrapper {
+    flex-direction: column;
+  }
 }

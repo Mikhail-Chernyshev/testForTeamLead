@@ -6,3 +6,19 @@
     border-radius: 50%;
     align-self: center;
 }
+@media screen and (max-width: 1279px) {
+    .composition__image {
+    }
+  }
+  @media screen and (max-width: 1023px) {
+    .composition__image {
+      margin: 5px auto;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .composition__image {
+        width: 80px;
+        height: 80px;
+    }
+  }

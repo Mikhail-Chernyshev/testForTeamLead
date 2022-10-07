@@ -1,5 +1,19 @@
 .photo__characteristics {
-    margin: 25px auto 0px;
-    padding: 0;
-    display: flex;
+  margin: 25px auto 0px;
+  padding: 0;
+  display: flex;
+}
+@media screen and (max-width: 1279px) {
+  .photo__characteristics {
+  }
+}
+@media screen and (max-width: 1023px) {
+  .photo__characteristics {
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo__characteristics {
+    margin: 0 auto;
+  }
 }

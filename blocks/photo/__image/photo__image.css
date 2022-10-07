@@ -1,6 +1,23 @@
 .photo__image {
-    margin: 0;
-    padding: 0;
-    width: 500px;
-    height: 550px;
+  margin: 0;
+  padding: 0;
+  max-width: 500px;
+  height: 550px;
+}
+@media screen and (max-width: 1279px) {
+  .photo__image {
+  }
+}
+@media screen and (max-width: 1023px) {
+  .photo__image {
+    width: 300px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo__image {
+    width: 200px;
+    height: 250px;
+  }
 }

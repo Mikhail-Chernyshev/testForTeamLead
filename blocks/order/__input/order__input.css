@@ -1,3 +1,44 @@
 .order__input {
-    
+  margin: 0 50px;
+  padding: 15px 0 0 0;
+  width: 320px;
+  height: 70px;
+  outline: none;
+  border: 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 1.5em;
 }
+
+.order__input::selection::placeholder {
+    color: gray;
+}
+.order__input:focus::placeholder {
+    color: gray;
+}
+
+.order__input::placeholder{
+    position: absolute;
+    right:0;
+    top:0;
+    color: transparent;
+}
+@media screen and (max-width: 1279px) {
+    .order__input {
+    }
+  }
+  @media screen and (max-width: 1023px) {
+    .order__input {
+        margin: 0 20px;
+        width: 220px;
+        font-size: 1em;
+    }
+    .order__input::placeholder {
+        font-size: 0.6em;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .order__input {
+        
+    }
+  }

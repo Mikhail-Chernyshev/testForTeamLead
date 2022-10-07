@@ -1,8 +1,23 @@
 .feedback__text {
-    margin: 0 auto;
-    margin-bottom: 20px;
-    padding: 20px 0 0 0;
-    width: 450px;
-    text-align: center;
-    font-style: italic
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 20px 0 10px 0;
+  width: 450px;
+  text-align: center;
+  font-style: italic;
+}
+@media screen and (max-width: 1279px) {
+  .feedback__text {
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .feedback__text {
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .feedback__text {
+    width: 260px;
+  }
 }
