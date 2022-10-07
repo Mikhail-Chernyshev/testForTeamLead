@@ -1,6 +1,10 @@
 const minutesRef = document.querySelector('.timer__minutes');
 const secondsRef = document.querySelector('.timer__seconds');
 
+const render = (time, timeRef) => {
+  timeRef.innerText = time < 10 ? `0${time}` : time;
+}
+
 let seconds = 59;
 let minutes = 29;
 const counter = () => {
