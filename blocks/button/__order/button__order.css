@@ -1,32 +1,32 @@
 .button__order {
-    width: 240px;
-    height: 120px;
-    margin: 10px 20px;
-    border-radius: 20px;
-    display: flex;
-    padding: 0;
-    border: 2px solid rgb(12,161,109);
-    color: rgb(12, 161, 109);
-    text-align: center;
-    align-self: center;
-    text-decoration: none;
-    letter-spacing: 4px;
-    transition: all 500ms ease;
+  width: 240px;
+  height: 120px;
+  margin: 10px 20px;
+  border-radius: 20px;
+  display: flex;
+  padding: 0;
+  border: 2px solid rgb(12, 161, 109);
+  color: rgb(12, 161, 109);
+  text-align: center;
+  align-self: center;
+  text-decoration: none;
+  letter-spacing: 4px;
+  transition: all 500ms ease;
 }
 
 .button__order::before {
-    content:'';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 0;
-	height: 42px;
-    background-color: rgb(12, 161, 109);
-	border-radius: 5px;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 42px;
+  background-color: rgb(12, 161, 109);
+  border-radius: 5px;
 }
 
 .button__order:hover {
-    background-color: rgb(12, 161, 109);
-    color: white;
-    transition: .4s;
+  background-color: rgb(12, 161, 109);
+  color: white;
+  transition: 0.4s;
 }

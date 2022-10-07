@@ -1,9 +1,9 @@
 .feedback__navigation {
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    bottom: 5px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
 }

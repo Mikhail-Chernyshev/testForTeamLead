@@ -1,32 +1,17 @@
 .button__link {
-    margin: auto auto;
-    padding: 0;
-    width: 240px;
-    height: 120px;
-    display: block;
-    line-height: 120px;
-    font-size: 2em;
-    text-decoration: none;
-    color: rgb(12, 161, 109);
+  margin: auto auto;
+  padding: 0;
+  width: 240px;
+  height: 120px;
+  display: block;
+  line-height: 120px;
+  font-size: 2em;
+  text-decoration: none;
+  color: rgb(12, 161, 109);
 }
 .button__link:visited {
-    color: rgb(12, 161, 109);
+  color: rgb(12, 161, 109);
 }
 .button__link:hover {
-    color: white;
+  color: white;
 }
-@media screen and (max-width: 1279px) {
-    .button__link {
-  
-    }
-  }
-  @media screen and (max-width: 1023px) {
-    .button__link {
-    
-    }
-  }
-  
-  @media screen and (max-width: 767px) {
-    .button__link {
-    }
-  }

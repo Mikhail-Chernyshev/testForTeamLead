@@ -1,8 +1,8 @@
 .page {
-    background: linear-gradient(45deg, #595959, #919ba0);
-    font-family: "Poppins", Arial, Helvetica, sans-serif;
-    color: #12f7e0;
-    position: relative;
-    background: linear-gradient(45deg, #f0ecec, #919ba0);
-color: #444444;
+  background: linear-gradient(45deg, #595959, #919ba0);
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  color: #12f7e0;
+  position: relative;
+  background: linear-gradient(45deg, #f0ecec, #919ba0);
+  color: #444444;
 }

@@ -1,0 +1,13 @@
+.timer {
+    margin: 10px auto;
+    padding: 10px;
+    width: 120px;
+    height: 50px;
+    font-size: 2em;
+    line-height: 50px;
+    display: flex;
+    letter-spacing: 10px;
+    background-color: red;
+    color: wheat;
+    border-radius: 20px;
+}

@@ -1,24 +1,13 @@
 .feedback__name {
-    margin: 0 auto;
-    padding: 25px 0 0 0;
-    font-size: 1.3em;
-}
-@media screen and (max-width: 1279px) {
-    .feedback__name {
-
-    }
-}
-
-@media screen and (max-width: 1023px) {
-    .feedback__name {
-        
-    }
+  margin: 0 auto;
+  padding: 25px 0 0 0;
+  font-size: 1.3em;
 }
 
 @media screen and (max-width: 767px) {
-    .feedback__name {
-        width: 300px;
-        font-size: 1.2em;
-        padding: 10px 0 0 0;
-    }
+  .feedback__name {
+    width: 300px;
+    font-size: 1.2em;
+    padding: 10px 0 0 0;
+  }
 }

@@ -44,7 +44,9 @@
               </li>
             </ul>
           </div>
-          <button class="button__order promo__order"><a href="#order" class="button__link" >ORDER!</a></button>
+          <button class="button__order promo__order">
+            <a href="#order" class="button__link">ORDER!</a>
+          </button>
         </section>
 
         <section class="composition">
@@ -105,15 +107,23 @@
               <h3 class="composition__title">Lorem ipsum dolor sit amet</h3>
             </div>
           </div>
-          <button class="button__order composition__order"><a href="#order" class="button__link composition__link" >ORDER!</a></button>
+          <button class="button__order composition__order">
+            <a href="#order" class="button__link composition__link">ORDER!</a>
+          </button>
         </section>
 
         <section class="feedback">
           <div class="feedback__wrapper">
             <div class="feedback__all-response">
-              <input type="radio" name="r" id="r1" class="feedback__radio" checked>
-              <input type="radio" name="r" id="r2" class="feedback__radio" >
-              <input type="radio" name="r" id="r3" class="feedback__radio" >
+              <input
+                type="radio"
+                name="r"
+                id="r1"
+                class="feedback__radio"
+                checked
+              />
+              <input type="radio" name="r" id="r2" class="feedback__radio" />
+              <input type="radio" name="r" id="r3" class="feedback__radio" />
               <div
                 id="feedback__response1"
                 tabindex="0"
@@ -193,13 +203,20 @@
             <li class="photo__property">Lorem ipsum</li>
             <li class="photo__property">Lorem ipsum</li>
           </ul>
-          <button class="button__order photo__order"><a href="#order" class="button__link photo__link" >ORDER!</a></button>
+          <button class="button__order photo__order">
+            <a href="#order" class="button__link photo__link">ORDER!</a>
+          </button>
         </section>
 
         <section class="order">
           <h3 class="promo__title order__title">&ensp;LevelUp&ensp;</h3>
-          <!-- <script src="//megatimer.ru/get/ba495803229cdb2b312bb88ad57a2d89.js"></script> -->
-          <div class="order__timer">timer</div>
+
+          <section class="timer">
+            <p class="timer__minutes">29</p>
+            <span class="timer__text">:</span>
+            <p class="timer__seconds">00</p>
+          </section>
+
           <div class="order__wrapper">
             <img src="./images/prod.png" alt="" class="order__image" />
             <p class="order__new-price">&emsp;NEW:&emsp; 9.99$</p>
@@ -221,16 +238,15 @@
                 onkeydown="return event.keyCode !== 69"
                 class="order__input"
               />
-              <button
-                type="submit"
-                class="button__order order__submit"
-              ><p class="button__link order__link">ORDER!</p></button>
+              <button type="submit" class="button__order order__submit">
+                <p class="button__link order__link">ORDER!</p>
+              </button>
             </form>
           </div>
         </section>
       </main>
       <footer class="footer"></footer>
     </div>
-    <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>

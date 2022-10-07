@@ -1,29 +1,9 @@
 .promo {
-    display: flex;
-    flex-direction: column;
-    border: 5px solid green;
-    position: relative;
-    z-index: 2;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-@media screen and (max-width: 1279px) {
-    .promo {
-
-    }
-}
-
-@media screen and (max-width: 1023px) {
-    .promo {
-        border: 1px solid yellow;
-        
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .promo {
-        
-    }
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }

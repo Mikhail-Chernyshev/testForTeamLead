@@ -6,17 +6,6 @@
   flex-direction: row;
   justify-content: space-around;
 }
-
-@media screen and (max-width: 1279px) {
-  .order__wrapper {
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .order__wrapper {
-  }
-}
-
 @media screen and (max-width: 767px) {
   .order__wrapper {
     flex-direction: column;

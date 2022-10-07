@@ -4,10 +4,7 @@
   max-width: 500px;
   height: 550px;
 }
-@media screen and (max-width: 1279px) {
-  .photo__image {
-  }
-}
+
 @media screen and (max-width: 1023px) {
   .photo__image {
     width: 300px;

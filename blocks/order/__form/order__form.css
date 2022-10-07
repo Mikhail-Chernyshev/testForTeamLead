@@ -1,28 +1,24 @@
 .order__form {
-    margin: 0;
-    padding: 0;
-    max-width: 450px;
-    height: 440px;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 20px;
-    border: 3px solid rgb(12, 161, 109);
+  margin: 0;
+  padding: 0;
+  max-width: 450px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+  border: 3px solid rgb(12, 161, 109);
 }
-@media screen and (max-width: 1279px) {
-    .order__form {
-        
-    }
-}
+
 @media screen and (max-width: 1023px) {
-    .order__form {
-        max-width: 300px;
-        height: 300px;
-    }
+  .order__form {
+    max-width: 300px;
+    height: 300px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .order__form {
-        margin: 0 auto;
-    }
+  .order__form {
+    margin: 0 auto;
+  }
 }

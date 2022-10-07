@@ -1,13 +1,13 @@
 .feedback__radio {
-    position: absolute;
-    visibility: hidden;
+  position: absolute;
+  visibility: hidden;
 }
 #r1:checked ~ #feedback__response1 {
-    margin-left: 0;
+  margin-left: 0;
 }
 #r2:checked ~ #feedback__response1 {
-    margin-left: -33.3%;
+  margin-left: -33.3%;
 }
 #r3:checked ~ #feedback__response1 {
-    margin-left: -66.6%;
+  margin-left: -66.6%;
 }

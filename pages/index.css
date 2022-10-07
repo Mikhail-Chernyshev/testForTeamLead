@@ -36,7 +36,6 @@
 @import url(../blocks/order/__image/order__image.css);
 @import url(../blocks/order/__wrapper/order__wrapper.css);
 @import url(../blocks/order/__title/order__title.css);
-@import url(../blocks/order/__timer/order__timer.css);
 @import url(../blocks/order/__new-price/order__new-price.css);
 @import url(../blocks/order/__old-price/order__old-price.css);
 @import url(../blocks/order/__form/order__form.css);
@@ -49,3 +48,7 @@
 @import url(../blocks/order/__link/order__link.css);
 @import url(../blocks/composition/__link/composition__link.css);
 @import url(../blocks/photo/__link/photo__link.css);
+@import url(../blocks/timer/timer.css);
+@import url(../blocks/timer/__minutes/timer__minutes.css);
+@import url(../blocks/timer/__seconds/timer__seconds.css);
+@import url(../blocks/timer/__text/timer__text.css);

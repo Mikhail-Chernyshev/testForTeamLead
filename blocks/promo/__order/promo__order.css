@@ -1,29 +1,23 @@
 .promo__order {
-    position: absolute;
-    /* right: 600px; */
-    bottom: 80px;
-    left: 48.5%;
-    transform: translateX(-50%);
-    z-index: 2;
+  position: absolute;
+  /* right: 600px; */
+  bottom: 80px;
+  left: 48.5%;
+  transform: translateX(-50%);
+  z-index: 2;
 }
 
 @media screen and (max-width: 1279px) {
-    .promo__order {
-        position: relative;
-        left: 0;
-        transform: none;
-        margin-top: 70px;
-        bottom: 60px;
-    }
+  .promo__order {
+    position: relative;
+    left: 0;
+    transform: none;
+    margin-top: 70px;
+    bottom: 60px;
   }
-  @media screen and (max-width: 1023px) {
-    .promo__order {
-        bottom: 10px;
-    }
+}
+@media screen and (max-width: 1023px) {
+  .promo__order {
+    bottom: 10px;
   }
-  
-  @media screen and (max-width: 767px) {
-    .promo__order {
-        
-    }
-  }
+}

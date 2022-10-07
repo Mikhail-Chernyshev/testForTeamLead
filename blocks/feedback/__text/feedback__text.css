@@ -6,15 +6,6 @@
   text-align: center;
   font-style: italic;
 }
-@media screen and (max-width: 1279px) {
-  .feedback__text {
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .feedback__text {
-  }
-}
 
 @media screen and (max-width: 767px) {
   .feedback__text {

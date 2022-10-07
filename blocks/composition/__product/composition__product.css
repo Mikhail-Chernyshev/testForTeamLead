@@ -1,23 +1,20 @@
 .composition__product {
-    margin: 50px auto;
-    padding: 0;
-    width: 300px;
-    height: 500px;
+  margin: 50px auto;
+  padding: 0;
+  width: 300px;
+  height: 500px;
 }
-@media screen and (max-width: 1279px) {
-    .composition__product {
-    }
+
+@media screen and (max-width: 1023px) {
+  .composition__product {
+    width: 200px;
+    height: 300px;
   }
-  @media screen and (max-width: 1023px) {
-    .composition__product {
-        width: 200px;
-        height: 300px;
-    }
+}
+
+@media screen and (max-width: 767px) {
+  .composition__product {
+    width: 140px;
+    height: 200px;
   }
-  
-  @media screen and (max-width: 767px) {
-    .composition__product {
-        width: 140px;
-        height: 200px;
-    }
-  }
+}

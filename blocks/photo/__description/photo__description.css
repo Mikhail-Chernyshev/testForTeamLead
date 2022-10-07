@@ -5,29 +5,26 @@
   height: 550px;
   font-size: 2em;
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   letter-spacing: 2px;
   text-align: center;
 }
 @media screen and (max-width: 1279px) {
   .photo__description {
-      /* align-items: center; */
-      font-size: 1.5em;
+    font-size: 1.5em;
   }
 }
 @media screen and (max-width: 1023px) {
   .photo__description {
-      width: 300px;
-      height: 350px;
-      font-size: 1em;
-      
+    width: 300px;
+    height: 350px;
+    font-size: 1em;
   }
 }
 
 @media screen and (max-width: 767px) {
   .photo__description {
-      margin-right: 10px;
-      font-size: 0.95em;
+    margin-right: 10px;
+    font-size: 0.95em;
   }
 }

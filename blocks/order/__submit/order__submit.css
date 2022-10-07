@@ -1,21 +1,11 @@
 .order__submit {
-    margin: 35px auto;
-    display: flex;
-}
-@media screen and (max-width: 1279px) {
-    .order__submit {
-        
-    }
-}
-@media screen and (max-width: 1023px) {
-    .order__submit {
-        width: 160px;
-        height: 80px;
-    }
+  margin: 35px auto;
+  display: flex;
 }
 
-@media screen and (max-width: 767px) {
-    .order__submit {
-        
-    }
+@media screen and (max-width: 1023px) {
+  .order__submit {
+    width: 160px;
+    height: 80px;
+  }
 }

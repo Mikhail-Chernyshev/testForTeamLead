@@ -1,12 +1,11 @@
 .promo__property {
-    margin: 0 0 0 15px;
-    padding: 0;
-    color: #12f7e0;
-    color: rgb(12, 161, 109);
+  margin: 0 0 0 15px;
+  padding: 0;
+  color: #12f7e0;
+  color: rgb(12, 161, 109);
 }
 @media screen and (max-width: 767px) {
-    .promo__property {
-        margin: 0;
-    }
+  .promo__property {
+    margin: 0;
   }
-  
+}
